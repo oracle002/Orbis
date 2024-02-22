@@ -1,0 +1,95 @@
+.body{
+	margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.full-container{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+.center-container{
+	position: relative;
+	width: 80%;
+	height: 90vh;
+	margin: auto;
+	overflow-y: hidden;
+}
+.formWindow
+{
+	width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 4% 2%;
+    align-content: center;
+    top: 10%;
+    position: relative;
+	
+}
+.formbg
+{
+	background-image: url("images/travel.jpg");
+	background-size: cover;
+}
+#userLoginWindow{
+	background-color: rgba(0,0,0,0.2);
+}
+#userRegisterWindow{
+	background-color: rgba(0,0,0,0.2);
+}
+.label, .labelInvert
+{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 14px;
+	color: white;
+}
+.formText{
+	color: #eaeaea;
+	font-family: 'Montserrat',sans-serif;
+	font-size: 14px;
+	text-align: center;
+}
+p{
+	padding: 5px;
+}
+input:not(.yellowBtn){
+	width: 70%;
+	height: 5%;
+	border-radius: 5px;
+	padding: 5px;
+	float: right;
+}
+.userFormInput{
+	border:0.5px solid white;
+	background-color: unset;
+	color: white;
+}
+
+.yellowBtn{
+	width: 90%;
+	margin: auto;
+	height: 5%;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #ffc312;
+	color: white;
+	font-family: 'Montserrat',sans-serif;
+	font-size: 16px;
+	border:none;
+	position: relative;
+	left: 5%;
+}
+.yellowBtn:hover{
+	cursor: pointer;
+}
+.heading{
+	font-family: 'Montserrat',sans-serif;
+	font-weight: bolder;
+	font-size: 30px;
+	margin: 0;
+
+
+}
+.forgotPasswd{
+	float: right;
+}
